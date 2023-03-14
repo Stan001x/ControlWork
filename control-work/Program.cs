@@ -14,3 +14,6 @@ if (array[array.Length - 1].Length < 4)
     result = result + $"{array[array.Length - 1]}";
 
 
+string[] finishArr = result.Split('\n');
+
+Console.WriteLine($"[{string.Join(", ", finishArr)}]");
